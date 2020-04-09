@@ -28,7 +28,7 @@ const ValidationPlayground = () => {
 
             <InputWithValidation validateFn={validateFieldN4} label="4. Синий круг, красная звезда, оранжевый квадрат"/>
 
-            <InputWithValidation validateFn={validateFieldN5} label="5. Три фигуры одного любого цвета кроме белого"/>
+            <InputWithValidation validateFn={validateFieldN5} label="5. Три фигуры одного любого цвета кроме белого (четыре фигуры одного цвета – это тоже true)"/>
 
             <InputWithValidation validateFn={validateFieldN6} label="6. Две зеленые фигуры (одна из них треугольник), еще одна любая красная"/>
 
